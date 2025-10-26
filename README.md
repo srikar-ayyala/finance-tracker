@@ -1,3 +1,5 @@
+Monorepo full stack application that takes bank transaction and helps sort into a collective, easy to search format
+
 Goal of this project:
 
 - Read and parse csv file from banking apps.
