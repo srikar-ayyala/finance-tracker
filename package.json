@@ -1,6 +1,6 @@
 {
     "name": "finance-tracker",
-    "description": "App that takes bank transaction and helps sort into a collective, easy to search format",
+    "description": "Full stack application that takes bank transaction and helps sort into a collective, easy to search format",
     "license": "UNLICENSED",
     "author": "Ayyala Sai Srikar",
     "type": "module",
