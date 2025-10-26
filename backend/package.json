@@ -1,0 +1,23 @@
+{
+    "name": "finance-tracker-backend",
+    "version": "1.0.0",
+    "description": "Backend of finance tracker application",
+    "license": "UNLICENSED",
+    "author": "Ayyala Sai Srikar",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "prod": "npm run build && node ./dist/index.js",
+        "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,css,scss,html}\""
+    },
+    "devDependencies": {
+        "@types/better-sqlite3": "^7.6.13",
+        "prettier": "3.6.2",
+        "typescript": "^5.9.3"
+    },
+    "dependencies": {
+        "better-sqlite3": "^12.4.1"
+    }
+}

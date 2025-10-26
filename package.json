@@ -1,0 +1,17 @@
+{
+    "name": "finance-tracker",
+    "description": "App that takes bank transaction and helps sort into a collective, easy to search format",
+    "license": "UNLICENSED",
+    "author": "Ayyala Sai Srikar",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc",
+        "prod": "npm run build && node ./dist/index.js",
+        "pretty": "prettier --write \"./**/*.{js,jsx,ts,tsx,json,css,scss,html}\""
+    },
+    "devDependencies": {
+        "prettier": "3.6.2"
+    }
+}
